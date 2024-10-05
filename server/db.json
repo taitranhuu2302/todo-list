@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "title": "Complete project report",
+      "due": "2024-12-05",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "title": "Schedule dentist appointment",
+      "due": "2024-12-05",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "Finish reading book",
+      "due": "2024-12-05",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "title": "Plan weekend trip",
+      "due": "2024-12-05",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "title": "Grocery shopping",
+      "due": "2024-12-05",
+      "completed": false,
+      "id": 5
+    }
+  ]
+}

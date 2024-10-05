@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f0f4f8, #e1e8ee);
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container > h1 {
+    margin: 0 auto 20px auto;
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+}
+
+.ant-modal-footer {
+    display: none;
+}
+
+.submit-btn {
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+}
+
+.todo {
+    width: 400px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo .todo-header {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.todo .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.todo .todo-list .todo-item {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.todo-item .title.completed {
+    color: #999;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.todo-item .title {
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.todo .todo-list .todo-item.overdue {
+    background-color: rgba(255, 0, 0, 0.2);
+    border-left: 5px solid red;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
