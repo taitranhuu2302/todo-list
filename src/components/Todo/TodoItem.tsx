@@ -10,11 +10,11 @@ import {
 import { DeleteOutlined, QuestionCircleOutlined } from '@ant-design/icons';
 import { useQueryClient } from 'react-query';
 import { CheckboxChangeEvent } from 'antd/lib/checkbox';
+import moment from 'moment';
 
 import { Task } from '@/types';
 import { useDeleteTask, useUpdateTask } from '@/services';
 import { QUERY_KEY } from '@/constants';
-import moment from 'moment';
 
 interface Props {
   task: Task;

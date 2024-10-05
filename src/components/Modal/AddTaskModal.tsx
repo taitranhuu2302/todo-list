@@ -34,7 +34,7 @@ const AddTaskModal: FC<Props> = ({ open, onClose }) => {
         description: 'Your task has been created and is now in your task list'
       });
       onClose();
-    } catch (_) {
+    } catch {
       api.error({
         message: 'Failed to create task',
         description:
